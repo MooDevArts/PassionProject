@@ -26,6 +26,7 @@ scalability.
 # Relationship Management
 
 > Many-to-Many: Staff members can be assigned to multiple cars, and each car can have multiple staff members.
+
 > One-to-Many: An owner can be associated with multiple cars, but each car belongs to a single owner.
 
 # API Endpoints
