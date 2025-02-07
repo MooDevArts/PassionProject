@@ -30,7 +30,9 @@ scalability.
 # Cars API
 
 GET /api/CarsAPI/List - Returns a list of all cars.
+
 GET /api/CarsAPI/{id} - Returns details of a specific car by ID.
+
 POST /api/CarsAPI/Add - Adds a new car.
 PUT /api/CarsAPI/Update/{id} - Updates the details of a specific car by ID.
 DELETE /api/CarsAPI/Delete/{id} - Deletes a specific car by ID.
