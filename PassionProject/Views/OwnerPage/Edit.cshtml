@@ -1,0 +1,44 @@
+﻿@model PassionProject.Models.OwnerDto
+
+@{
+    ViewData["Title"] = "Edit Owner";
+}
+
+<div class="container">
+    <h1>Updating Owner Details</h1>
+
+    <form asp-action="Update" asp-route-id="@Model.OwnerId">
+        <input type="hidden" asp-for="OwnerId" />
+
+        <div class="form-group">
+            <label asp-for="FirstName" class="control-label">First Name</label>
+            <input type="text" asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName" class="control-label">Last Name</label>
+            <input type="text" asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Contact" class="control-label">Contact</label>
+            <input type="text" asp-for="Contact" class="form-control" />
+            <span asp-validation-for="Contact" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <div>
+        <a asp-action="List" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

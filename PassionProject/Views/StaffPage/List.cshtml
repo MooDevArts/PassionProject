@@ -1,0 +1,44 @@
+﻿@model IEnumerable<PassionProject.Models.StaffDto>
+
+@{
+    ViewData["Title"] = "Staff List";
+}
+
+<div class="container">
+    <h1 class="my-4 text-center title-glow">Staff List</h1>
+
+    <div class="row">
+        @if (Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card card-hover shadow-sm border-light">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)</h5>
+                            <p class="card-text">Position: <strong>@Html.DisplayFor(modelItem => item.Position)</strong></p>
+                            <p class="card-text">Contact: <strong>@Html.DisplayFor(modelItem => item.Contact)</strong></p>
+                            <div class="d-flex justify-content-between">
+                                <a asp-action="Edit" asp-route-id="@item.StaffId" class="btn btn-edit">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.StaffId" class="btn btn-details">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.StaffId" class="btn btn-delete">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-info text-center">No staff available.</div>
+            </div>
+        }
+    </div>
+
+    <div class="text-center mb-3">
+        <a asp-action="New" asp-route-id="New" class="btn btn-add btn-lg">Add New Staff</a>
+    </div>
+</div>
+
+

@@ -1,0 +1,30 @@
+﻿@model PassionProject.Models.CarDto
+
+<div class="container">
+
+    <h2>Are you sure you want to delete this car?</h2>
+
+    <div class="model-row">
+        <strong>Make:</strong> <span class="model-value">@Model.Make</span>
+    </div>
+    <div class="model-row">
+        <strong>Model:</strong> <span class="model-value">@Model.Model</span>
+    </div>
+    <div class="model-row">
+        <strong>Year:</strong> <span class="model-value">@Model.Year</span>
+    </div>
+    <div class="model-row">
+        <strong>Owner:</strong> <span class="model-value">@Model.OwnerName</span>
+    </div>
+
+    <form asp-action="DeleteConfirmed" asp-route-id="@Model.CarId">
+        <input type="hidden" asp-for="CarId" />
+        <div class="button-container">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="List" class="btn btn-secondary">Back</a>
+        </div>
+    </form>
+
+</div>
+
+

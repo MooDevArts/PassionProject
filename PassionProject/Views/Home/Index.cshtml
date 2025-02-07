@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to MotoLogic</h1>
+    <p class="lead">A Car Showroom Management System</p>
+    <hr class="my-4" />
+    <p>Explore our features and get started today!</p>
+    <div class="button-container">
+        <a class="btn" asp-controller="CarPage" asp-action="List">View Cars</a>
+        <a class="btn" asp-controller="OwnerPage" asp-action="List">View Owners</a>
+        <a class="btn" asp-controller="StaffPage" asp-action="List">View Staff</a>
+    </div>
+</div>
