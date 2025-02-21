@@ -8335,24 +8335,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/sarathsaji/.nuget/packages/": {}
+    "C:\\Users\\vrind\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sarathsaji/Desktop/Motologic-C#/PassionProject/PassionProject.csproj",
+      "projectUniqueName": "C:\\Users\\vrind\\HTTP5226\\PassionProject\\PassionProject.csproj",
       "projectName": "PassionProject",
-      "projectPath": "/Users/sarathsaji/Desktop/Motologic-C#/PassionProject/PassionProject.csproj",
-      "packagesPath": "/Users/sarathsaji/.nuget/packages/",
-      "outputPath": "/Users/sarathsaji/Desktop/Motologic-C#/PassionProject/obj/",
+      "projectPath": "C:\\Users\\vrind\\HTTP5226\\PassionProject\\PassionProject.csproj",
+      "packagesPath": "C:\\Users\\vrind\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vrind\\HTTP5226\\PassionProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sarathsaji/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vrind\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8428,7 +8431,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,14 +1,14 @@
 body {
-    background-color: #343a40; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #ffffff; /* White background color */
+    color: #008cff; /* Blue text color */
 }
 
 header {
-    background-color: #495057; /* Darker gray for header */
+    background-color: #f0f4f8; /* Light blue-gray for header */
 }
 
 .navbar {
-    border-bottom: 2px solid #d9534f; /* Red border for navbar */
+    border-bottom: 2px solid #008cff; /* Blue border for navbar */
 }
 
 .nav-link {
@@ -18,7 +18,7 @@ header {
 }
 
     .nav-link:hover {
-        color: #d9534f; /* Change color on hover */
+        color: #008cff; /* Blue text on hover */
         transform: scale(1.15); /* Scale up on hover */
     }
 
@@ -27,22 +27,22 @@ header {
 }
 
 h1, h2 {
-    color: #d9534f; /* Title color */
+    color: #008cff; /* Blue title color */
     text-align: center; /* Center headings */
 }
 
 .form-control {
-    background-color: #6c757d; /* Light gray for input fields */
-    color: #fff; /* White text color */
+    background-color: #f1f8ff; /* Light blue background for input fields */
+    color: #008cff; /* Blue text color */
 }
 
 .btn-primary {
-    background-color: #d9534f; /* Red button background */
+    background-color: #008cff; /* Blue button background */
     border: none; /* No border */
 }
 
     .btn-primary:hover {
-        background-color: #c9302c; /* Darker red on hover */
+        background-color: #007acc; /* Darker blue on hover */
     }
 
 .text-danger {
@@ -50,5 +50,5 @@ h1, h2 {
 }
 
 .box-shadow {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }

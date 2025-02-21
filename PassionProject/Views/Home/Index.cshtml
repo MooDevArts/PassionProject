@@ -6,10 +6,121 @@
     <h1 class="display-4">Welcome to MotoLogic</h1>
     <p class="lead">A Car Showroom Management System</p>
     <hr class="my-4" />
-    <p>Explore our features and get started today!</p>
-    <div class="button-container">
-        <a class="btn" asp-controller="CarPage" asp-action="List">View Cars</a>
-        <a class="btn" asp-controller="OwnerPage" asp-action="List">View Owners</a>
-        <a class="btn" asp-controller="StaffPage" asp-action="List">View Staff</a>
+    <p>Start your journey with us and unlock powerful tools today!</p>
+    <div class="hero-image">
+        <img src="~/images/hero-image.jpg" alt="Hero Image" class="img-fluid" />
     </div>
 </div>
+
+<!-- Dashboard Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Dashboard</h2>
+    <div class="row">
+        <!-- Cars Section -->
+        <div class="col-md-4">
+            <div class="dashboard-box">
+                <h3>Cars</h3>
+                <p>Manage your car inventory efficiently.</p>
+                <div class="card-image">
+                    <img src="~/images/car-image.jpg" alt="Hero Image" class="img-fluid" />
+                </div>
+                <a class="btn btn-primary" asp-controller="CarPage" asp-action="List">View Cars</a>
+            </div>
+        </div>
+
+        <!-- Owners Section -->
+        <div class="col-md-4">
+            <div class="dashboard-box">
+                <h3>Owners</h3>
+                <p>Keep track of car owners and their details.</p>
+                <div class="card-image">
+                    <img src="~/images/owner-image.jpg" alt="Hero Image" class="img-fluid" />
+                </div>
+                <a class="btn btn-primary" asp-controller="OwnerPage" asp-action="List">View Owners</a>
+            </div>
+        </div>
+
+        <!-- Staff Section -->
+        <div class="col-md-4">
+            <div class="dashboard-box">
+                <h3>Staff Members</h3>
+                <p>Manage staff members and their roles.</p>
+                <div class="card-image">
+                    <img src="~/images/staff-image.jpg" alt="Hero Image" class="img-fluid" />
+                </div>
+                <a class="btn btn-primary" asp-controller="StaffPage" asp-action="List">View Staff</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .text-center {
+        padding: 50px 20px;
+        background-color: #495057;
+        color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .display-4 {
+        color: #008cff; /* MotoLogic color */
+        font-weight: bold;
+    }
+
+    .lead {
+        font-size: 2.1rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-image {
+        margin-top: 30px;
+    }
+
+        .hero-image img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .card-image img {
+        width: 100%; /* Make the image fill the container width */
+        height: 200px; /* Fixed height for all images */
+        object-fit: cover; /* Ensure the image covers the box without distortion */
+        border-radius: 8px; /* Optional: Add rounded corners to the images */
+    }
+
+    .dashboard-box {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+        .dashboard-box h3 {
+            color: #008cff;
+            font-size: 1.75rem;
+        }
+
+        .dashboard-box p {
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+    .btn-primary {
+        background-color: #008cff;
+        border: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #006bb3;
+            transform: translateY(-2px);
+        }
+
+    .row {
+        margin-top: 20px;
+    }
+</style>

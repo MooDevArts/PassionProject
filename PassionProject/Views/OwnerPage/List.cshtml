@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<PassionProject.Models.OwnerDto>
 
 @{
-    ViewData["Title"] = "Owner List";
+    ViewData["Title"] = "Car Owners";
 }
 
 <div class="container">
-    <h1 class="my-4 text-center title-glow">Owner List</h1>
+    <h1 class="my-4 text-center ">Car Owners</h1>
 
     <div class="row">
         @if (Model.Any())
@@ -39,4 +39,90 @@
         <a asp-action="New" asp-route-id="New" class="btn btn-add btn-lg">Add New Owner</a>
     </div>
 </div>
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Light background */
+        color: #333; /* Dark text for readability */
+        font-family: Arial, sans-serif;
+    }
+
+    .title-glow {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #333;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+
+    .card-hover {
+        transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+        background-color: #ffffff; /* White background for cards */
+        color: #333; /* Dark text color */
+        border: 1px solid #ddd; /* Light border */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .card-hover:hover {
+            transform: scale(1.05);
+            z-index: 1;
+            background-color: #f1f3f5; /* Lighter hover effect */
+            color: #333;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+    .btn {
+        color: #fff;
+        border: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        opacity: 0.99;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+        .btn:hover {
+            opacity: 1;
+        }
+
+    .btn-edit {
+        background-color: #007bff;
+    }
+
+        .btn-edit:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+    .btn-details {
+        background-color: #28a745;
+    }
+
+        .btn-details:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+    .btn-delete {
+        background-color: #dc3545;
+    }
+
+        .btn-delete:hover {
+            background-color: #c82333;
+            transform: translateY(-2px);
+        }
+
+    .btn-add {
+        background-color: #17a2b8;
+    }
+
+        .btn-add:hover {
+            background-color: #138496;
+            transform: translateY(-2px);
+        }
+
+    .alert-info {
+        background-color: #d6d8db;
+        color: #333;
+    }
+</style>
 
