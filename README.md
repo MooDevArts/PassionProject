@@ -66,3 +66,13 @@ POST /api/StaffAPI/Add - Adds a new staff member.
 PUT /api/StaffAPI/Update/{id} - Updates the details of a specific staff member by ID.
 
 DELETE /api/StaffAPI/Delete/{id} - Deletes a specific staff member by ID.
+
+# MVP Collab
+
+# Sarath's part
+
+Sarath provided us with the base for our collab project, with a nice UI
+
+# Hima's part
+
+Hima focused on the task functionality for the staff
