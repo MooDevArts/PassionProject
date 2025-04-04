@@ -16,6 +16,9 @@ namespace PassionProject.Data
         //Owner.cs will map to a Owners Table
         public DbSet<Owner> Owners { get; set; }
 
+        //Task.cs will map to a Tasks Table
+        public DbSet<WorkTask> WorkTasks { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

@@ -187,5 +187,75 @@ namespace PassionProject.Services
 
             return response;
         }
+
+        public async Task<IEnumerable<WorkTaskDto>> ListWorkTasksForStaff(int staffId)
+        {
+            return await _context.Staffs
+                .Where(s => s.StaffId == staffId)
+                .SelectMany(s => s.WorkTasks)
+                .Select(wt => new WorkTaskDto
+                {
+                    id = wt.id,
+                    TaskName = wt.TaskName,
+                    Description = wt.Description
+                })
+                .ToListAsync();
+        }
+
+        public async Task<ServiceResponse> AssignWorkTaskToStaff(int staffId, int workTaskId)
+        {
+            var response = new ServiceResponse();
+
+            var staff = await _context.Staffs
+                .Include(s => s.WorkTasks)
+                .FirstOrDefaultAsync(s => s.StaffId == staffId);
+
+            var workTask = await _context.WorkTasks.FindAsync(workTaskId);
+
+            if (staff == null || workTask == null)
+            {
+                response.Status = ServiceResponse.ServiceStatus.NotFound;
+                response.Messages.Add(staff == null ? "Staff not found" : "WorkTask not found");
+                return response;
+            }
+
+            staff.WorkTasks.Add(workTask);
+            await _context.SaveChangesAsync();
+
+            response.Status = ServiceResponse.ServiceStatus.Created;
+            response.Messages.Add("WorkTask assigned successfully");
+            return response;
+        }
+
+        public async Task<ServiceResponse> RemoveWorkTaskFromStaff(int staffId, int workTaskId)
+        {
+            var response = new ServiceResponse();
+
+            var staff = await _context.Staffs
+                .Include(s => s.WorkTasks)
+                .FirstOrDefaultAsync(s => s.StaffId == staffId);
+
+            if (staff == null)
+            {
+                response.Status = ServiceResponse.ServiceStatus.NotFound;
+                response.Messages.Add("Staff not found");
+                return response;
+            }
+
+            var workTask = staff.WorkTasks?.FirstOrDefault(wt => wt.id == workTaskId);
+            if (workTask == null)
+            {
+                response.Status = ServiceResponse.ServiceStatus.NotFound;
+                response.Messages.Add("WorkTask not assigned to this staff");
+                return response;
+            }
+
+            staff.WorkTasks?.Remove(workTask);
+            await _context.SaveChangesAsync();
+
+            response.Status = ServiceResponse.ServiceStatus.Deleted;
+            response.Messages.Add("WorkTask removed from staff successfully");
+            return response;
+        }
     }
 }

@@ -23,7 +23,9 @@ namespace PassionProject.Interface
         Task<ServiceResponse> DeleteStaff(int id);
 
         // related methods
-
+        Task<IEnumerable<WorkTaskDto>> ListWorkTasksForStaff(int staffId);
+        Task<ServiceResponse> AssignWorkTaskToStaff(int staffId, int workTaskId);
+        Task<ServiceResponse> RemoveWorkTaskFromStaff(int staffId, int workTaskId);
 
         //Task<IEnumerable<StaffDto>> ListStaffsForCar(int id);
         // Task<ServiceResponse> ListStaffsForCar(int categoryId, int productId);

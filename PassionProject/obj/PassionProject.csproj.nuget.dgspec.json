@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vrind\\HTTP5226\\PassionProject\\PassionProject.csproj": {}
+    "C:\\Flora\\Web Development\\field experience\\placement\\business with Vishnu\\PassionProject\\PassionProject\\PassionProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vrind\\HTTP5226\\PassionProject\\PassionProject.csproj": {
+    "C:\\Flora\\Web Development\\field experience\\placement\\business with Vishnu\\PassionProject\\PassionProject\\PassionProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vrind\\HTTP5226\\PassionProject\\PassionProject.csproj",
+        "projectUniqueName": "C:\\Flora\\Web Development\\field experience\\placement\\business with Vishnu\\PassionProject\\PassionProject\\PassionProject.csproj",
         "projectName": "PassionProject",
-        "projectPath": "C:\\Users\\vrind\\HTTP5226\\PassionProject\\PassionProject.csproj",
-        "packagesPath": "C:\\Users\\vrind\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vrind\\HTTP5226\\PassionProject\\obj\\",
+        "projectPath": "C:\\Flora\\Web Development\\field experience\\placement\\business with Vishnu\\PassionProject\\PassionProject\\PassionProject.csproj",
+        "packagesPath": "C:\\Users\\flora\\.nuget\\packages\\",
+        "outputPath": "C:\\Flora\\Web Development\\field experience\\placement\\business with Vishnu\\PassionProject\\PassionProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vrind\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flora\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

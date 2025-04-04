@@ -20,7 +20,7 @@ namespace PassionProject.Controllers
             return RedirectToAction("List");
         }
 
-        private readonly IStaffService _staffService;
+        private readonly ITaskService _TaskService;
         private readonly ICarService _carService;
         private readonly IOwnerService _ownerService;
         private readonly ApplicationDbContext _context;
@@ -29,12 +29,12 @@ namespace PassionProject.Controllers
         /// Dependency injection of service interfaces.
         /// </summary>
         /// <param name="CarService">Car service interface.</param>
-        /// <param name="StaffService">Staff service interface.</param>
+        /// <param name="TaskService">Staff service interface.</param>
         /// <param name="OwnerService">Owner service interface.</param>
-        public CarPageController(ICarService CarService, IStaffService StaffService, IOwnerService OwnerService)
+        public CarPageController(ICarService CarService, ITaskService TaskService, IOwnerService OwnerService)
         {
             _carService = CarService;
-            _staffService = StaffService;
+            _TaskService = TaskService;
             _ownerService = OwnerService;
         }
 

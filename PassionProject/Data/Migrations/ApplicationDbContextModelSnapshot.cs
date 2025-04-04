@@ -326,6 +326,42 @@ namespace PassionProject.Data.Migrations
                     b.ToTable("Staffs");
                 });
 
+            modelBuilder.Entity("PassionProject.Models.WorkTask", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TaskName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("WorkTasks");
+                });
+
+            modelBuilder.Entity("StaffWorkTask", b =>
+                {
+                    b.Property<int>("StaffsStaffId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("WorkTasksid")
+                        .HasColumnType("int");
+
+                    b.HasKey("StaffsStaffId", "WorkTasksid");
+
+                    b.HasIndex("WorkTasksid");
+
+                    b.ToTable("StaffWorkTask");
+                });
+
             modelBuilder.Entity("CarStaff", b =>
                 {
                     b.HasOne("PassionProject.Models.Car", null)
@@ -401,6 +437,21 @@ namespace PassionProject.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Owner");
+                });
+
+            modelBuilder.Entity("StaffWorkTask", b =>
+                {
+                    b.HasOne("PassionProject.Models.Staff", null)
+                        .WithMany()
+                        .HasForeignKey("StaffsStaffId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PassionProject.Models.WorkTask", null)
+                        .WithMany()
+                        .HasForeignKey("WorkTasksid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PassionProject.Models.Owner", b =>

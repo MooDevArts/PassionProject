@@ -1,115 +1,155 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PassionProject
 build_property.RootNamespace = PassionProject
-build_property.ProjectDir = C:\Users\vrind\HTTP5226\PassionProject\
+build_property.ProjectDir = C:\Users\HIMANSHU\Downloads\Back end docs\Collab MVP\PassionProject (2)\PassionProject\PassionProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vrind\HTTP5226\PassionProject
+build_property.MSBuildProjectDirectory = C:\Users\HIMANSHU\Downloads\Back end docs\Collab MVP\PassionProject (2)\PassionProject\PassionProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/CarPage/Delete.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/CarPage/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFnZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/CarPage/Details.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/CarPage/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFnZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/CarPage/Edit.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/CarPage/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFnZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/CarPage/List.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/CarPage/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFnZVxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/CarPage/New.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/CarPage/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFnZVxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/Home/Index.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/Home/Privacy.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/OwnerPage/Delete.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/OwnerPage/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJQYWdlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/OwnerPage/Details.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/OwnerPage/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJQYWdlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/OwnerPage/Edit.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/OwnerPage/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJQYWdlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/OwnerPage/List.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/OwnerPage/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJQYWdlXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/OwnerPage/New.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/OwnerPage/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJQYWdlXE5ldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/Shared/Error.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/StaffPage/Delete.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/StaffPage/AssignTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZQYWdlXEFzc2lnblRhc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/StaffPage/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZQYWdlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/StaffPage/Details.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/StaffPage/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZQYWdlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/StaffPage/Edit.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/StaffPage/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZQYWdlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/StaffPage/List.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/StaffPage/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZQYWdlXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/StaffPage/New.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/StaffPage/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZQYWdlXE5ldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/_ViewImports.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/AssignStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcQXNzaWduU3RhZmYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/TaskPage/TaskStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1BhZ2VcVGFza1N0YWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/_ViewStart.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vrind/HTTP5226/PassionProject/Views/Shared/_Layout.cshtml]
+[C:/Users/HIMANSHU/Downloads/Back end docs/Collab MVP/PassionProject (2)/PassionProject/PassionProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8frdvionbm

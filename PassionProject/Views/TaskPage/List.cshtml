@@ -1,0 +1,166 @@
+﻿@model IEnumerable<WorkTaskDto>
+@{
+    ViewData["Title"] = "Task List";
+}
+
+<h2>Task List</h2>
+
+<p>
+    <a asp-action="New">Create New Task</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Task Name</th>
+            <th>Description</th>
+            <th>Assigned Staff</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TaskName</td>
+                <td>@item.Description</td>
+                <td>
+                    @if (ViewBag.AssignedStaffs.ContainsKey(item.id))
+                    {
+                        @string.Join(", ", ViewBag.AssignedStaffs[item.id])
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}
+
+<style>
+    body {
+        background-color: #ffffff;
+        color: #333333;
+    }
+
+    .card-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #f8f9fa;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            background-color: #f1f8fe; 
+        }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #2c3e50; 
+    }
+
+    .card-text {
+        color: #7f8c8d;
+        margin-bottom: 15px;
+    }
+
+    .assigned-staff {
+        margin-top: 15px;
+    }
+
+    .staff-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .badge {
+        font-size: 0.75rem;
+        padding: 0.35em 0.65em;
+    }
+
+    .btn {
+        color: #fff;
+        border: none;
+        transition: all 0.3s ease;
+        opacity: 0.9;
+        min-width: 80px;
+    }
+
+        .btn:hover {
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+
+    .btn-edit {
+        background-color: #3498db;
+    }
+
+        .btn-edit:hover {
+            background-color: #2980b9;
+        }
+
+    .btn-details {
+        background-color: #2ecc71;
+    }
+
+        .btn-details:hover {
+            background-color: #27ae60;
+        }
+
+    .btn-delete {
+        background-color: #e74c3c; 
+    }
+
+        .btn-delete:hover {
+            background-color: #c0392b;
+        }
+
+    .btn-add {
+        background-color: #3498db; 
+        padding: 10px 20px;
+    }
+
+        .btn-add:hover {
+            background-color: #2980b9;
+        }
+
+    .container {
+        margin-top: 30px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .col-md-4 {
+        flex: 1 1 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text-muted {
+        color: #95a5a6 !important;
+    }
+
+    .alert {
+        border-radius: 8px;
+    }
+</style>

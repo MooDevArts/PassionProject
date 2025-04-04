@@ -20,6 +20,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICarService, CarService>();
 builder.Services.AddScoped<IOwnerService, OwnerService>();
 builder.Services.AddScoped<IStaffService, StaffService>();
+builder.Services.AddScoped<ITaskService, TaskService>();
 
 builder.Services.AddSwaggerGen();
 

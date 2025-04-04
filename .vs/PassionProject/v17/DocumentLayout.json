@@ -1,0 +1,767 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PassionProject_CarShowroom/True/SqlTable/dbo.StaffWorkTask.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\StaffPage\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\StaffService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Services\\StaffService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\TaskStaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\TaskStaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\TaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Services\\TaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402060107_overall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Data\\Migrations\\20250402060107_overall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\TaskPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Controllers\\TaskPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\ITaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Interfaces\\ITaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\TaskAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Controllers\\TaskAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\StaffPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Controllers\\StaffPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\Staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\Staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\AssignStaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\AssignStaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\New.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\New.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\TaskPage\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\AssignStaffViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ViewModels\\AssignStaffViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\WorkTaskDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ViewModels\\WorkTaskDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\AssignTask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\StaffPage\\AssignTask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402033653_StaffTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Data\\Migrations\\20250402033653_StaffTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\IStaffService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Interfaces\\IStaffService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\StaffPage\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\StaffDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ViewModels\\StaffDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\AssignTaskViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ViewModels\\AssignTaskViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\StaffPage\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\New.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\StaffPage\\New.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Views\\StaffPage\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\CarDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ViewModels\\CarDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\OwnerEdit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ViewModels\\OwnerEdit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\StaffAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Controllers\\StaffAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ServiceResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Models\\ServiceResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402032934_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Data\\Migrations\\20250402032934_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\CarService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Services\\CarService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\OwnerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Services\\OwnerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\IOwnerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PassionProject\\Interfaces\\IOwnerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 62,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Details.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T02:09:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\StaffPage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Details.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\StaffPage\\Details.cshtml",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAAGQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:56:44.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T05:40:14.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\StaffService.cs",
+              "RelativeToolTip": "PassionProject\\Services\\StaffService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwCsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:41:30.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\Task.cs",
+              "RelativeToolTip": "PassionProject\\Models\\Task.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:14:54.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskStaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\TaskStaff.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\TaskStaff.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\TaskStaff.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\TaskStaff.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T03:01:44.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\TaskService.cs",
+              "RelativeToolTip": "PassionProject\\Services\\TaskService.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAAHkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:14:04.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250402060107_overall.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402060107_overall.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Data\\Migrations\\20250402060107_overall.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402060107_overall.cs",
+              "RelativeToolTip": "PassionProject\\Data\\Migrations\\20250402060107_overall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:28:27.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskPageController.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\TaskPageController.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Controllers\\TaskPageController.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\TaskPageController.cs",
+              "RelativeToolTip": "PassionProject\\Controllers\\TaskPageController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAqwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:09:24.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "PassionProject\\Interfaces\\ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:46:39.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\TaskAPIController.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Controllers\\TaskAPIController.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\TaskAPIController.cs",
+              "RelativeToolTip": "PassionProject\\Controllers\\TaskAPIController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAqwD4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:49:48.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StaffPageController.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\StaffPageController.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Controllers\\StaffPageController.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\StaffPageController.cs",
+              "RelativeToolTip": "PassionProject\\Controllers\\StaffPageController.cs",
+              "ViewState": "AQIAAAABAAAAAAAAAAAAAAkBAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:27:08.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\Staff.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\Staff.cs",
+              "RelativeToolTip": "PassionProject\\Models\\Staff.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwCQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:41:15.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssignStaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\AssignStaff.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\AssignStaff.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\AssignStaff.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\AssignStaff.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T03:01:53.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\New.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\New.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\New.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\New.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:44:30.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Edit.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:55:19.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\Delete.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T05:35:31.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\List.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\TaskPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\TaskPage\\List.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\TaskPage\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:51:29.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssignStaffViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\AssignStaffViewModel.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ViewModels\\AssignStaffViewModel.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\AssignStaffViewModel.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ViewModels\\AssignStaffViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:24:16.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WorkTaskDetails.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\WorkTaskDetails.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ViewModels\\WorkTaskDetails.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\WorkTaskDetails.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ViewModels\\WorkTaskDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:25:38.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.StaffWorkTask.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PassionProject_CarShowroom/True/SqlTable/dbo.StaffWorkTask.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PassionProject_CarShowroom/True/SqlTable/dbo.StaffWorkTask.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-03T01:32:56.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\AssignTask.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\StaffPage\\AssignTask.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\AssignTask.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\StaffPage\\AssignTask.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T00:55:36.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "PassionProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAFwBAAAAAAAAAAAgwGsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:28:31.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250402033653_StaffTask.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402033653_StaffTask.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Data\\Migrations\\20250402033653_StaffTask.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402033653_StaffTask.cs",
+              "RelativeToolTip": "PassionProject\\Data\\Migrations\\20250402033653_StaffTask.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:36:54.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IStaffService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\IStaffService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Interfaces\\IStaffService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\IStaffService.cs",
+              "RelativeToolTip": "PassionProject\\Interfaces\\IStaffService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowBkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:48:03.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\StaffPage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Edit.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\StaffPage\\Edit.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAkwC4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:52:23.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StaffDetails.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\StaffDetails.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ViewModels\\StaffDetails.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\StaffDetails.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ViewModels\\StaffDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:56:11.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssignTaskViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\AssignTaskViewModel.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ViewModels\\AssignTaskViewModel.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\AssignTaskViewModel.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ViewModels\\AssignTaskViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:07:56.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "PassionProject\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-02T05:39:03.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAACwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T05:39:11.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PassionProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PassionProject\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T05:53:14.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\StaffPage\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\Delete.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\StaffPage\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:56:28.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\New.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\StaffPage\\New.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\New.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\StaffPage\\New.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAqwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:45:49.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\List.cshtml",
+              "RelativeDocumentMoniker": "PassionProject\\Views\\StaffPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Views\\StaffPage\\List.cshtml",
+              "RelativeToolTip": "PassionProject\\Views\\StaffPage\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T04:37:17.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CarDetails.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\CarDetails.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ViewModels\\CarDetails.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\CarDetails.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ViewModels\\CarDetails.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA5wBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:14:25.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OwnerEdit.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\OwnerEdit.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ViewModels\\OwnerEdit.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ViewModels\\OwnerEdit.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ViewModels\\OwnerEdit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:56:21.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StaffAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\StaffAPIController.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Controllers\\StaffAPIController.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Controllers\\StaffAPIController.cs",
+              "RelativeToolTip": "PassionProject\\Controllers\\StaffAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:26:00.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Models\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Models\\ServiceResponse.cs",
+              "RelativeToolTip": "PassionProject\\Models\\ServiceResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:14:02.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250402032934_task.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402032934_task.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Data\\Migrations\\20250402032934_task.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\Migrations\\20250402032934_task.cs",
+              "RelativeToolTip": "PassionProject\\Data\\Migrations\\20250402032934_task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:29:35.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PassionProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:15:32.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Program.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Program.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Program.cs",
+              "RelativeToolTip": "PassionProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:13:01.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\CarService.cs",
+              "RelativeToolTip": "PassionProject\\Services\\CarService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAwwD0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:00:18.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PassionProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\appsettings.Development.json",
+              "RelativeToolTip": "PassionProject\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T02:12:54.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OwnerService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\OwnerService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Services\\OwnerService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Services\\OwnerService.cs",
+              "RelativeToolTip": "PassionProject\\Services\\OwnerService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:49:13.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IOwnerService.cs",
+              "DocumentMoniker": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\IOwnerService.cs",
+              "RelativeDocumentMoniker": "PassionProject\\Interfaces\\IOwnerService.cs",
+              "ToolTip": "C:\\Users\\HIMANSHU\\Downloads\\Back end docs\\Collab MVP\\PassionProject (2)\\PassionProject\\PassionProject\\Interfaces\\IOwnerService.cs",
+              "RelativeToolTip": "PassionProject\\Interfaces\\IOwnerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:48:58.5Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 26,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

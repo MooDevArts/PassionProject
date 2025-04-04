@@ -7,5 +7,7 @@
 
         //A staff page can manage many cars
         public IEnumerable<CarDto>? StaffCars { get; set; }
+
+        public List<WorkTaskDto> Tasks { get; set; }
     }
 }

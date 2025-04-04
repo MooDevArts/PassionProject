@@ -9,12 +9,12 @@ namespace PassionProject.Controllers
     [ApiController]
     public class StaffAPIController : ControllerBase
     {
-        private readonly IStaffService _staffService;
+        private readonly IStaffService _StaffService;
 
         // Dependency injection of service interfaces
-        public StaffAPIController(IStaffService staffService)
+        public StaffAPIController(IStaffService StaffService)
         {
-            _staffService = staffService;
+            _StaffService = StaffService;
         }
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace PassionProject.Controllers
         [HttpGet(template: "List")]
         public async Task<IEnumerable<StaffDto>> ListStaffs()
         {
-            return await _staffService.ListStaffs();
+            return await _StaffService.ListStaffs();
         }
 
         /// <summary>
@@ -52,7 +52,7 @@ namespace PassionProject.Controllers
         [HttpGet(template: "Find/{id}")]
         public async Task<StaffDto> GetStaff(int id)
         {
-            return await _staffService.GetStaff(id);
+            return await _StaffService.GetStaff(id);
         }
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace PassionProject.Controllers
         [HttpPut("{id}")]
         public async Task<ServiceResponse> UpdateStaff(int id, StaffDto staffDto)
         {
-            return await _staffService.UpdateStaff(id, staffDto);
+            return await _StaffService.UpdateStaff(id, staffDto);
         }
 
         /// <summary>
@@ -100,7 +100,7 @@ namespace PassionProject.Controllers
         [HttpPost(template: "Add")]
         public async Task<ServiceResponse> CreateStaff(StaffDto staffDto)
         {
-            return await _staffService.CreateStaff(staffDto);
+            return await _StaffService.CreateStaff(staffDto);
         }
 
         /// <summary>
@@ -120,7 +120,99 @@ namespace PassionProject.Controllers
         [HttpDelete("{id}")]
         public async Task<ServiceResponse> DeleteStaff(int id)
         {
-            return await _staffService.DeleteStaff(id);
+            return await _StaffService.DeleteStaff(id);
+        }
+
+        /// <summary>
+        /// This endpoint returns a list of all work tasks assigned to a specific staff member.
+        /// </summary>
+        /// <param name="staffId">The Staff ID</param>
+        /// <returns>
+        /// 200 OK
+        /// [{WorkTaskDto}, {WorkTaskDto}, ...]
+        /// or
+        /// 404 Not Found
+        /// </returns>
+        /// <example>
+        /// GET: api/StaffAPI/ListTasks/1 ->
+        /// [{"Id":1,"Name":"Inventory Check","Description":"Monthly inventory check"},
+        /// {"Id":2,"Name":"Customer Meeting","Description":"Meeting with key client"}]
+        /// </example>
+        [HttpGet("ListTasks/{staffId}")]
+        public async Task<ActionResult<IEnumerable<WorkTaskDto>>> ListWorkTasksForStaff(int staffId)
+        {
+            var tasks = await _StaffService.ListWorkTasksForStaff(staffId);
+            if (tasks == null || !tasks.Any())
+            {
+                return NotFound("No tasks found for this staff member");
+            }
+            return Ok(tasks);
+        }
+
+        /// <summary>
+        /// This endpoint assigns a work task to a staff member.
+        /// </summary>
+        /// <param name="staffId">The Staff ID</param>
+        /// <param name="workTaskId">The WorkTask ID</param>
+        /// <returns>
+        /// 200 OK
+        /// or
+        /// 404 Not Found
+        /// or
+        /// 400 Bad Request
+        /// </returns>
+        /// <example>
+        /// POST: api/StaffAPI/AssignTask/1/3
+        /// -> 
+        /// Response Code: 200 OK
+        /// Response Body: {"Status":1,"Messages":["WorkTask assigned successfully"],"CreatedId":null}
+        /// </example>
+        [HttpPost("AssignTask/{staffId}/{workTaskId}")]
+        public async Task<ActionResult<ServiceResponse>> AssignWorkTaskToStaff(int staffId, int workTaskId)
+        {
+            var result = await _StaffService.AssignWorkTaskToStaff(staffId, workTaskId);
+
+            if (result.Status == ServiceResponse.ServiceStatus.NotFound)
+            {
+                return NotFound(result.Messages);
+            }
+            else if (result.Status == ServiceResponse.ServiceStatus.Error)
+            {
+                return BadRequest(result.Messages);
+            }
+
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// This endpoint removes a work task from a staff member's assignments.
+        /// </summary>
+        /// <param name="staffId">The Staff ID</param>
+        /// <param name="workTaskId">The WorkTask ID</param>
+        /// <returns>
+        /// 200 OK
+        /// or
+        /// 404 Not Found
+        /// or
+        /// 400 Bad Request
+        /// </returns>
+        /// <example>
+        /// DELETE: api/StaffAPI/RemoveTask/1/3
+        /// -> 
+        /// Response Code: 200 OK
+        /// Response Body: {"Status":1,"Messages":["WorkTask removed from staff successfully"],"CreatedId":null}
+        /// </example>
+        [HttpDelete("RemoveTask/{staffId}/{workTaskId}")]
+        public async Task<ActionResult<ServiceResponse>> RemoveWorkTaskFromStaff(int staffId, int workTaskId)
+        {
+            var result = await _StaffService.RemoveWorkTaskFromStaff(staffId, workTaskId);
+
+            if (result.Status == ServiceResponse.ServiceStatus.NotFound)
+            {
+                return NotFound(result.Messages);
+            }
+
+            return Ok(result);
         }
     }
 }

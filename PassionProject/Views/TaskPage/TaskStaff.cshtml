@@ -1,0 +1,39 @@
+﻿@model WorkTaskDetails
+@{
+    ViewData["Title"] = "Task Staff Assignment";
+}
+
+<h2>Staff for @Model.Task.TaskName</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Contact</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var staff in Model.Staffs)
+        {
+            <tr>
+                <td>@staff.FirstName @staff.LastName</td>
+                <td>@staff.Position</td>
+                <td>@staff.Contact</td>
+                <td>
+                    <form asp-action="RemoveStaffFromTask" method="post">
+                        <input type="hidden" name="taskId" value="@Model.Task.id" />
+                        <input type="hidden" name="staffId" value="@staff.StaffId" />
+                        <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="AssignStaff" asp-route-taskId="@Model.Task.id" class="btn btn-primary">Assign New Staff</a> |
+    <a asp-action="Details" asp-route-id="@Model.Task.id">Back to Task</a>
+</div>

@@ -17,42 +17,55 @@
     <h2 class="text-center mb-4">Dashboard</h2>
     <div class="row">
         <!-- Cars Section -->
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="dashboard-box">
                 <h3>Cars</h3>
                 <p>Manage your car inventory efficiently.</p>
                 <div class="card-image">
                     <img src="~/images/car-image.jpg" alt="Hero Image" class="img-fluid" />
                 </div>
-                <a class="btn btn-primary" asp-controller="CarPage" asp-action="List">View Cars</a>
+                <a class="btn btn-primary mt-3" asp-controller="CarPage" asp-action="List">View Cars</a>
             </div>
         </div>
 
         <!-- Owners Section -->
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="dashboard-box">
                 <h3>Owners</h3>
                 <p>Keep track of car owners and their details.</p>
                 <div class="card-image">
                     <img src="~/images/owner-image.jpg" alt="Hero Image" class="img-fluid" />
                 </div>
-                <a class="btn btn-primary" asp-controller="OwnerPage" asp-action="List">View Owners</a>
+                <a class="btn btn-primary mt-3" asp-controller="OwnerPage" asp-action="List">View Owners</a>
             </div>
         </div>
-
+        </div>
+            <div class="row">
+ 
         <!-- Staff Section -->
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="dashboard-box">
                 <h3>Staff Members</h3>
                 <p>Manage staff members and their roles.</p>
                 <div class="card-image">
                     <img src="~/images/staff-image.jpg" alt="Hero Image" class="img-fluid" />
                 </div>
-                <a class="btn btn-primary" asp-controller="StaffPage" asp-action="List">View Staff</a>
+                <a class="btn btn-primary mt-3" asp-controller="StaffPage" asp-action="List">View Staff</a>
+            </div>
+        </div>
+        <!-- Task Section -->
+        <div class="col-md-6">
+            <div class="dashboard-box">
+                <h3>Task List</h3>
+                <p>Manage to-do tasks.</p>
+                <div class="card-image">
+                    <img src="~/images/task-image.jpg" alt="Hero Image" class="img-fluid" />
+                </div>
+                <a class="btn btn-primary mt-3" asp-controller="TaskPage" asp-action="List">View Task</a>
             </div>
         </div>
     </div>
-</div>
+    </div>
 
 <style>
     .text-center {

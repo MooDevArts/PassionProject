@@ -34,6 +34,7 @@ namespace PassionProject.Models
         /// Collection of cars that the staff member manages. A staff member can manage many cars.
         /// </summary>
         public ICollection<Car>? Cars { get; set; }
+        public ICollection<WorkTask> WorkTasks { get; set; } = new List<WorkTask>();
     }
 
     public class StaffDto
@@ -69,6 +70,15 @@ namespace PassionProject.Models
         /// 
         public int CarId { get; set; }
 
+
+
         public List<CarDto> Cars { get; set; }
+
+        /// <summary>
+        /// Indicates if the staff is selected/assigned (used in forms)
+        /// </summary>
+        public bool IsSelected { get; set; }
+
+        public ICollection<WorkTaskDto>? WorkTasks { get; set; }
     }
 }
